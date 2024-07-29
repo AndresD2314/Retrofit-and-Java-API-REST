@@ -35,6 +35,9 @@ El backend está construido con Spring Boot y proporciona una API REST para gest
 - `PUT /api/v1/people/{id}` - Actualizar una persona existente.
 - `DELETE /api/v1/people/{id}` - Eliminar una persona.
 
+### Base de datos
+
+Se esta usando MySql como entorno de base de datos, para que esta funcione se necesita correr en el puerto `3036`
 
 ## Uso de la Aplicación
 
