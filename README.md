@@ -34,3 +34,28 @@ El backend está construido con Spring Boot y proporciona una API REST para gest
 - PUT /api/v1/people/{id} - Actualizar una persona existente.
 - DELETE /api/v1/people/{id} - Eliminar una persona.
 
+## Uso de la Aplicación
+
+### Pantalla Principal:
+
+- Botón "Crear" para abrir la actividad de creación de una nueva persona.
+- Botón "Ver todas las personas" para abrir la actividad que muestra la lista de personas.
+
+### Crear Persona:
+
+1. Rellena los campos de nombre, edad, correo y número de celular.
+2. Pulsa el botón "Enviar" para crear la persona.
+3. Aparecerá un mensaje de confirmación y regresarás a la pantalla principal.
+
+### Actualizar Persona:
+
+1. En la lista de personas, pulsa el botón de editar para abrir la actividad de actualización.
+2. Modifica los datos necesarios y pulsa el botón "Actualizar".
+3. Aparecerá un mensaje de confirmación y regresarás a la pantalla principal.
+
+### Eliminar Persona:
+
+1. En la lista de personas, pulsa el botón de eliminar.
+2. Aparecerá un diálogo de confirmación. Si confirmas, la persona será eliminada.
+
+
