@@ -13,7 +13,7 @@ Este es un proyecto de ejemplo para gestionar personas utilizando un backend en 
 ## Requisitos
 
 - Android Studio
-- JDK 8 o superior
+- JDK 17 o superior
 - Gradle
 - Conexión a internet
 
