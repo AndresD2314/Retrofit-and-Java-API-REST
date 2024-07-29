@@ -25,14 +25,16 @@ Este es un proyecto de ejemplo para gestionar personas utilizando un backend en 
    ```bash
    git clone https://github.com/AndresD2314/Retrofit-and-Java-API-REST.git
    
-## Estructura del proyecto
+### Backend
+
 El backend está construido con Spring Boot y proporciona una API REST para gestionar personas. Las rutas principales son:
 
-- GET /api/v1/people - Obtener todas las personas.
-- GET /api/v1/people/{id} - Obtener una persona por ID.
-- POST /api/v1/people - Crear una nueva persona.
-- PUT /api/v1/people/{id} - Actualizar una persona existente.
-- DELETE /api/v1/people/{id} - Eliminar una persona.
+- `GET /api/v1/people` - Obtener todas las personas.
+- `GET /api/v1/people/{id}` - Obtener una persona por ID.
+- `POST /api/v1/people` - Crear una nueva persona.
+- `PUT /api/v1/people/{id}` - Actualizar una persona existente.
+- `DELETE /api/v1/people/{id}` - Eliminar una persona.
+
 
 ## Uso de la Aplicación
 
