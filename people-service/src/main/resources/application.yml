@@ -1,0 +1,19 @@
+server:
+  port: 8080
+
+
+spring:
+  application:
+    name: people-app
+  datasource:
+    url: jdbc:mysql://localhost:3306/people-db
+    username: root
+    password: ''
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    properties:
+      hibernate:
+        ddl-auto: update
+        dialect: org.hibernate.dialect.MySQL8Dialect
+    generate-ddl: true
+    show-sql: true

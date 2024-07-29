@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    tools:context=".MainActivity4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:background="@drawable/rounded_white_rectangle"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginTop="20dp"/>
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:hint="Nombre"
+            android:background="@drawable/rounded_grey_rectangle"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/tvAge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edad"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginTop="20dp"/>
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/etAge"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:hint="Edad"
+            android:background="@drawable/rounded_grey_rectangle"
+            android:inputType="number"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/tvEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Correo"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginTop="20dp"/>
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:hint="Correo"
+            android:background="@drawable/rounded_grey_rectangle"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/tvPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Número de celular"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginTop="20dp"/>
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/etPhone"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:hint="Número de celular"
+            android:background="@drawable/rounded_grey_rectangle"
+            android:inputType="phone"
+            android:padding="10dp"/>
+
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:text="Actualizar"
+            android:background="@color/purple_500"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
