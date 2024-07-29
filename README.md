@@ -22,4 +22,4 @@ Este es un proyecto de ejemplo para gestionar personas utilizando un backend en 
 1. Clona el repositorio del backend:
 
    ```bash
-   git clone https://github.com/tuusuario/backend.git
+   git clone https://github.com/AndresD2314/Retrofit-and-Java-API-REST.git
